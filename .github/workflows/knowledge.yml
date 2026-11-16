@@ -1,0 +1,14 @@
+name: Kontrola wiedzy
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  knowledge:
+    name: knowledge-check
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - run: ruby scripts/check.rb

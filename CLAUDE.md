@@ -1,0 +1,3 @@
+# Superbrain zespołowy
+
+@AGENTS.md
