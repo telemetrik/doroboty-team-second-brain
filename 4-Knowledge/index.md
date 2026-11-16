@@ -4,6 +4,8 @@ Wpisuj każdą stronę pod odpowiednim nagłówkiem. Dodaj odnośnik i krótką 
 
 ## Domena
 
+- [Wynik dopasowania a zaproszenie do kolejnego etapu](domain/wynik-dopasowania-a-kolejny-etap.md) - wynik fikcyjnej symulacji i propozycja miary do pilotażu.
+
 ## Klienci
 
 ## Decyzje
