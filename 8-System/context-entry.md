@@ -1,13 +1,15 @@
-# Mapa kontekstu zespołu
+# Mapa kontekstu DoRoboty.ai
 
-Zacznij od [profilu zespołu](team.md). Przy uruchomieniu dopisz odnośniki do ustaleń i źródeł, do których zespół będzie wracał.
+Zacznij od [profilu zespołu](team.md). Czytaj potrzebne dokumenty z jednej sprawdzonej wersji repo.
 
-| Gdy potrzebujesz | Zacznij od |
+| Pytanie | Punkt wejścia |
 | --- | --- |
-| Celów, zakresu i odpowiedzialności | [Profil zespołu](team.md) |
-| Definicji, decyzji, praktyk i wiedzy o klientach | [Indeks wiedzy](../4-Knowledge/index.md) |
-| Hipotez, eksperymentów i wniosków | [Indeks projektów](../3-Projects/index.md) |
-| Właściciela dokumentu lub reviewera | [Mapa właścicieli](owners.md) |
-| Zasad edycji i utrzymania | [Zasady repo](brain.md) i [gardening](maintenance.md) |
+| Dla kogo jest produkt? | [Kandydaci i pracodawcy](../4-Knowledge/customers/kandydaci-i-pracodawcy.md) |
+| Co oznacza dopasowanie? | [Wynik dopasowania](../4-Knowledge/domain/wynik-dopasowania.md) |
+| Jak mierzymy wynik rekrutacji? | [Miary](../4-Knowledge/domain/miary-rekrutacji.md) i [etapy](../4-Knowledge/domain/proces-rekrutacji.md) |
+| Dlaczego w historii wybrano pomoc AI? | [D-001](../4-Knowledge/decisions/pomoc-ai-w-opisach.md) |
+| Nad czym pracujemy i czego brakuje? | [Brief](../3-Projects/ocena-pomocy-ai/brief.md) i [otwarte pytania](../4-Knowledge/open-questions.md) |
+| Kto rozstrzyga i ocenia zmianę? | [Właściciele](owners.md) |
+| Jak zmieniamy i utrzymujemy wiedzę? | [Zasady](brain.md) i [gardening](maintenance.md) |
 
-W połączonym prywatnym repo czytaj tę mapę i potrzebne dokumenty z tej samej wersji domyślnej gałęzi.
+Pełne mapy: [wiedza](../4-Knowledge/index.md), [projekty](../3-Projects/index.md). W stanie startowym nie ma jeszcze udostępnionej prywatnej analizy ilościowej. Nie uzupełniaj jej z pamięci rozmowy jako faktu pochodzącego z repo.

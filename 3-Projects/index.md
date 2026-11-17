@@ -1,5 +1,6 @@
-# Projekty
+# Projekty DoRoboty.ai
 
-Dodaj wpis dla briefu każdego projektu oraz dla jego eksperymentów i podsumowań. Wpis powinien prowadzić do strony i krótko wskazywać jej zakres lub stan.
+- [Ocena pomocy AI i przygotowanie pilotażu](ocena-pomocy-ai/brief.md) - stan przed udostępnieniem analizy, zakres kolejnych działań i źródła.
+- [Starsza robocza karta kryteriów](ocena-pomocy-ai/pierwotne-kryteria.md) - jawny materiał dydaktyczny do przeglądu założeń.
 
-[Szablon projektu](../6-Templates/projekt.md) i [szablon eksperymentu](../6-Templates/eksperyment.md)
+Oba dokumenty wymagają pierwszego przeglądu. Przy kolejnej zmianie zachowaj jeden wpis na każdą stronę, także historyczną.
