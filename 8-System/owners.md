@@ -1,28 +1,30 @@
 ---
-steward: null
+steward: "telemetrik"
 areas:
   produkt:
-    owner: null
-    backup: null
+    owner: "telemetrik"
+    backup: "strzalex"
   domena:
-    owner: null
-    backup: null
+    owner: "telemetrik"
+    backup: "strzalex"
   badania:
-    owner: null
-    backup: null
+    owner: "telemetrik"
+    backup: "strzalex"
   utrzymanie:
-    owner: null
-    backup: null
+    owner: "telemetrik"
+    backup: "strzalex"
 ---
-# Odpowiedzialność
+# Odpowiedzialność w demonstracji DoRoboty.ai
 
-Przypisz opiekuna w polu `steward` przed dodaniem stron wiedzy lub projektu. Dla używanych obszarów uzupełnij `owner` i `backup`, dostosuj zakresy do zespołu i odwzoruj odpowiedzialność w [CODEOWNERS](../.github/CODEOWNERS).
+Minimalny przydział dla dwuosobowego ćwiczenia. `telemetrik` jest opiekunem i właścicielem obszarów; `strzalex` jest wskazanym przez użytkownika reviewerem i zastępcą. To przydział na potrzeby pracy w repo, nie opis struktury firmy.
 
-| Obszar | Typowe dokumenty |
-| --- | --- |
-| `produkt` | Projekty, decyzje i otwarte pytania |
-| `domena` | Definicje i metryki |
-| `badania` | Wiedza o klientach i praktyki badawcze |
-| `utrzymanie` | Instrukcje i skille repo |
+| Obszar | Właściciel | Zastępca | Zakres |
+| --- | --- | --- | --- |
+| produkt | telemetrik | strzalex | Briefy, decyzje, pytania o dalszy kierunek |
+| domena | telemetrik | strzalex | Definicje etapów rekrutacji i metryk |
+| badania | telemetrik | strzalex | Potrzeby użytkowników, analizy i ich ograniczenia |
+| utrzymanie | telemetrik | strzalex | Zasady, skille i spójność wiedzy |
 
-Zastępca przejmuje review, gdy właściciel jest autorem lub jest niedostępny. Opiekun pilnuje przydziału. Dokument może mieć własne pole `owner`, a zastępstwo wynika z obszaru.
+Jeśli autorem zmiany jest właściciel, review wykonuje zastępca. Przy zmianie autorstwa zapewnij review innej osoby. Brak dostępnego reviewera oznacza oczekiwanie PR-a.
+
+Wskazanie loginu nie nadaje uprawnień. Przed demonstracją administrator musi sprawdzić dostęp i reguły opisane w [uruchomieniu GitHuba](../docs/uruchomienie-github.md). [CODEOWNERS](../.github/CODEOWNERS) zawiera planowany przydział obu osób; nie zastępuje nadania dostępu ani włączenia ochrony gałęzi.

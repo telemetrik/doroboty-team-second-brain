@@ -1,14 +1,3 @@
-# Przykład. Odkomentuj reguły po zastąpieniu nazw prawdziwymi loginami z dostępem write.
-# Druga osoba jest zastępcą. Ostatni pasujący wzorzec obowiązuje dla danej ścieżki.
-# *                    @opiekun @zastepca-opiekuna
-# /3-Projects/          @wlasciciel-produktu @zastepca-produktu
-# /4-Knowledge/         @wlasciciel-produktu @zastepca-produktu
-# /4-Knowledge/domain/  @wlasciciel-domeny @zastepca-domeny
-# /4-Knowledge/customers/ @wlasciciel-badan @zastepca-badan
-# /4-Knowledge/practices/ @wlasciciel-badan @zastepca-badan
-# /5-Raw/              @opiekun @zastepca-opiekuna
-# /7-Skills/           @opiekun @zastepca-opiekuna
-# /.agents/skills/     @opiekun @zastepca-opiekuna
-# /.claude/skills/     @opiekun @zastepca-opiekuna
-# /8-System/           @opiekun @zastepca-opiekuna
-# /.github/            @opiekun @zastepca-opiekuna
+# Przydział dla demo DoRoboty.ai. Obie osoby wymagają dostępu write.
+# Sam ten plik nie nadaje dostępu ani nie włącza obowiązkowego review.
+* @telemetrik @strzalex
